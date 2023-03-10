@@ -81,6 +81,7 @@ button {
 }
 .header__adress-link {
   color: var(--seconari-text-color);
+  font-style: normal;
 }
 .header__adress-link:hover,
 .header__adress-link:focus {
