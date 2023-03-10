@@ -72,11 +72,11 @@ button {
   color: var(--seconari-text-color);
 }
 .header__address-list {
+  font-style: normal;
 }
 .header__address-item {
   text-decoration: none;
   list-style: none;
-  font-style: normal;
 }
 .header__adress-link {
   color: var(--seconari-text-color);
