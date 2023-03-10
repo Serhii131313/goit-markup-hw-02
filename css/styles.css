@@ -159,7 +159,7 @@ button {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  color: var(--color-text-color);
+  color: var(--color-text);
   text-align: center;
   text-transform: capitalize;
 }
@@ -196,7 +196,7 @@ button {
   text-align: center;
   text-transform: capitalize;
   letter-spacing: 0.02em;
-  color: var(--color-text-color);
+  color: var(--color-text);
 }
 .section__team-list {
   list-style: none;
@@ -211,7 +211,7 @@ button {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--color-text-color);
+  color: var(--color-text);
 }
 .section__team-text {
   font-size: 16px;
@@ -228,9 +228,11 @@ button {
 .lo_go-link {
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.66;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--logo-color-top);
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
 }
 
 .logo_2 {
@@ -255,7 +257,7 @@ button {
 .section__buttun-item {
 }
 .section__button {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
