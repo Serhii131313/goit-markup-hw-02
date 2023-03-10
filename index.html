@@ -10,13 +10,13 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
   </head>
   <body>
     <header class="header">
       <nav class="header__navigation">
-        <a class="header__link" href="index.html"
+        <a class="header__logo-link" href="index.html"
           >WEB<span class="header__span">Studio</span></a
         >
         <ul class="header__navigation-list">
@@ -35,23 +35,29 @@
       </nav>
 
       <address class="header__address">
-        <a class="header__adress-link" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        >
-        <a class="header__adress-link" href="tel:+11(000)111-11-11"
-          >+11 (000) 111-11-11</a
-        >
+        <ul class="header__address-list">
+          <li class="header__address-item">
+            <a class="header__adress-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="header__address-item">
+            <a class="header__adress-link" href="tel:+11(000)111-11-11"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
       </address>
     </header>
     <main>
       <section class="hero">
         <h1 class="hero-title">Effective Solutionsfor Your Business</h1>
-        <button class="button" type="button">Order Service</button>
+        <button class="hero__button" type="button">Order Service</button>
       </section>
 
-      <section>
-        <h2 hidden class="tittle-privilage">privilage</h2>
-        <ul class="privilage list">
+      <section class="privilage">
+        <h2 hidden class="tittle__privilage-hidden">privilage</h2>
+        <ul class="privilage__list">
           <li class="privilage__item">
             <h3 class="privilage__title">Strategy</h3>
             <p class="privilage__text">
@@ -167,7 +173,7 @@
     </main>
 
     <footer class="footer">
-      <a class="lo_go link" href="index.html"
+      <a class="lo_go-link" href="index.html"
         >WEB<span class="logo_2">Studio</span></a
       >
       <p class="footer-text">
