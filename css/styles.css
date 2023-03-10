@@ -12,7 +12,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--bg-color);
-  color: var(--color-text);
+  color: var(--seconari-text-color);
 }
 button {
   cursor: pointer;
@@ -20,19 +20,25 @@ button {
 
 /* First Page (heder)*/
 /* navigation */
+.list {
+  list-style: none;
+}
 
 .header {
   border-bottom: 1px solid var(--head-buttum-fon-color #e7e9fc);
 }
 .header__navigation {
 }
-.header__logo-link {
-  font-family: 'Raleway';
-  font-style: normal;
+.header__logo {
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17;
   color: var(--logo-color-top);
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.link {
   text-decoration: none;
 }
 .header__span {
@@ -51,6 +57,12 @@ button {
   letter-spacing: 0.02em;
   color: var(--color-text);
 }
+.header__navigation-link:hover,
+.header__navigation-link:focus {
+  color: var(--portfolio-button-bg-hover-color);
+  border: var(--portfolio-button-bg-hover-color);
+  border-radius: 2px;
+}
 /* contact adress section */
 
 .header__address {
@@ -67,11 +79,11 @@ button {
   font-style: normal;
 }
 .header__adress-link {
-  color: var(--color-text);
+  color: var(--seconari-text-color);
 }
 .header__adress-link:hover,
 .header__adress-link:focus {
-  color: var(--seconari-text-color);
+  color: var(--portfolio-button-bg-hover-color);
 }
 /* Hero section */
 .hero {
@@ -193,7 +205,6 @@ button {
   background-color: var(--bg-color-fon-team);
 }
 .section__team-photo {
-  background: url(man-with-laptop-presenting-something.jpg);
 }
 .section__team-sabtitle {
   font-weight: 500;
@@ -240,6 +251,10 @@ button {
 .section-title {
 }
 .section__buttun-list {
+}
+.section__buttun-item {
+}
+.section__button {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -247,10 +262,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   list-style: none;
-}
-.section__buttun-item {
-}
-.section__button {
   background-color: var(--bg-color-fon-team);
   color: var(--logo-color-top);
   border: var(--fotter-text);
